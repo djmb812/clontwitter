@@ -1,0 +1,7 @@
+                <div class="abajo fijo">
+                    <%= form_with url: tweets_path, method: :get do |form| %>
+                    <h1 class="decoration mb-3">Buscador</h1>
+                    <%= form.text_field :query_text, value: params[:query_text],class: "color mb-4" %>
+                    <%= form.submit "Buscar", class:"boton decoration" %>
+                    <% end %>
+                </div>

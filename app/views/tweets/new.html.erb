@@ -1,0 +1,10 @@
+<%= render "navbar2", tweet: @tweet %>
+<h1 class="no-decoration">Publicar tweet</h1>
+
+<%= render "form", tweet: @tweet %>
+
+<br>
+
+<div>
+  <%= link_to "Volver a los tweets", tweets_path, class: "boton decoration" %>
+</div>

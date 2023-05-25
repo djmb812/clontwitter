@@ -1,0 +1,23 @@
+<%= render "navbar", tweet: @tweet %>
+
+
+
+<p style="color: green"><%= notice %></p>
+
+
+<div class="centrar">
+
+  <div id="tweets">
+    <h1 class="no-decoration">Tweets</h1>
+    <% @tweets.each do |tweet| %>
+    <div class="bordertweets">
+      <%= render tweet %>
+      <p><%= link_to "Mostrar este tweet", tweet, class: "boton decoration margen"%></p>
+    </div>
+    <% end %>
+    <div class="mt-4">
+      <%== pagy_bootstrap_nav(@pagy) %>
+    </div>
+  </div>
+<div>
+

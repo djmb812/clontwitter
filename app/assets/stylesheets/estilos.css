@@ -1,0 +1,112 @@
+body{
+  padding: 0;
+
+}
+
+#contenido {
+  align-self: center;
+  align-content: center;
+  margin-left: 240px;
+
+}
+.abajo{
+  margin-top: 400px;
+  margin-left: 35px;
+}
+.derecha {
+	width: 300px;
+	padding: 2.5em 89em;
+	line-height: 1.7rem;
+	float: right;
+}
+
+.centrar{
+    padding: 0;
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.no-decoration{
+    font: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.decoration{
+  font: left;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.margen{
+  margin-left: 35px;
+  align-self: auto;
+}
+
+.margenabajo{
+  margin-bottom: 10px;
+}
+
+i{
+  margin-right: 20px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+#elecciontweet{
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 40px;
+  content: none;
+}
+
+.boton {
+    background: dodgerblue;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 5px #5e1d1d(0, 0, 0, 0.5);
+  }
+
+.bordertweets{
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  width: 800px;
+  align-content: center;
+}
+
+.color{
+  background-color: darkgray;
+  border-radius: 12px;
+  width: 300px;
+  display: flex;
+}
+.fijo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.izquierda {
+	width: 30vmin;
+	padding: 1.5em 1em;
+	line-height: 1.7rem;
+	float: left;
+}
+
+ul {
+    list-style: none;
+  }

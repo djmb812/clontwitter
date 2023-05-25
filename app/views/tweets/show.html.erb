@@ -1,0 +1,17 @@
+<%= render "navbar2", tweet: @tweet %>
+<p style="color: green"><%= notice %></p>
+<div class="container bordertweets">
+  <%= render @tweet %>
+</div>
+
+  <div id= "elecciontweet" class="row">
+    <div class="col-4">
+      <%= link_to "Editar", edit_tweet_path(@tweet), class:"boton decoration" %>
+    </div>
+    <div class="col-4">
+      <%= button_to "Borrar", @tweet, method: :delete, class:"boton decoration" %>
+    </div>
+    <div class="col-4">
+      <%= link_to "Volver a los tweets", tweets_path, class:"boton decoration" %>
+    </div>
+  </div>
